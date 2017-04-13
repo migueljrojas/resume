@@ -1,0 +1,47 @@
+.resume{
+    padding: 20px;
+    background: #fff;
+    width:100%;
+    min-width: 320px;
+    max-width: 1320px;
+
+    @include breakpoint(sm){
+        position:relative;
+        padding: 0;
+        background: $white;
+    }
+
+    section{
+        border-bottom: 2px solid;
+        padding-bottom: 20px;
+    }
+
+    ._section-title{
+        padding-bottom: 10px;
+        border-bottom: 1px solid $light-border;
+        margin-bottom: 10px;
+    }
+}
+
+._bio-section{
+    @include breakpoint(sm){
+        position: fixed;
+        width:280px;
+        left:0;
+        top:0;
+        border-top: 40px solid $darkest-gray;
+        background: $white;
+        border-right:1px solid $darkest-gray;
+        padding: 20px 20px 0;
+    }
+}
+
+._resume-section{
+    @include breakpoint(sm){
+        position: relative;
+        width:calc(100% - 280px);
+        left:280px;
+        padding: 0 20px;
+        background: $white;
+    }
+}

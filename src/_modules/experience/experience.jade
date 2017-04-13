@@ -1,0 +1,115 @@
+.experience
+    h2._section-title Experience
+    
+    .collapsible-heading
+        h3 Summary
+        .collapsible-trigger
+    
+    .collapsible-wrapper
+        dl._summary
+            each bullet in site.data.experience.summary
+                dt !{bullet.description}
+                dd !{bullet.key}
+           
+    .collapsible-heading
+        h3 Job History
+        .collapsible-trigger
+    
+    .collapsible-wrapper.-jobs  
+
+        .timeline
+            - var jobs = site.data.experience.workExperience
+            
+            ._years
+                ul.year-list
+                    - for (var x = 2018; x >= 2005; x--)
+                        li(class="y-#{x}")
+                            span= x
+                .line
+            
+            .job-events-wrapper        
+                ul._job-events
+                    each job, key in jobs
+                        li(class="#{key}")
+                            a.trigger
+                                span
+                                span
+                                                        
+                            .index
+                            .index-trail
+            
+            .job-cards-wrapper
+                ul._job-cards
+                    each job, key in jobs
+                        li(data-target="#{key}")
+                            .card-wrapper
+                                .card
+                                    .header
+                                        .company
+                                            a.company-logo(src="#{job.company.web}",target="_blank")
+                                                img(src="#{job.company.logo}")
+                                            .company-info
+                                                if job.company.web
+                                                    a(src="#{job.company.web}",target="_blank")
+                                                        h4 #{job.company.name}
+                                                else
+                                                    h4 #{job.company.name}
+                                                    
+                                                p #{job.company.location.city}, #{job.company.location.country}
+                                        .personal-role
+                                            h4 #{job.title}
+                                            if job.current == true
+                                                p.date From #{job.date.from.month} #{job.date.from.year}, to present
+                                            else
+                                                p.date From #{job.date.from.month} #{job.date.from.year}, to #{job.date.to.month} #{job.date.to.year}
+                                            
+                                    .body
+                                        .experience
+                                            h5 Experience
+                                            .content-wrapper
+                                                each p in job.experience
+                                                    p #{p}
+                                
+                                        .achievements
+                                            h5 Achievements
+                                            .content-wrapper
+                                                ul    
+                                                    each li in job.achievements
+                                                        li 
+                                                            p #{li}
+                    
+    .collapsible-heading
+        h3 Education
+        .collapsible-trigger
+        
+    .collapsible-wrapper.-education
+        ul._student-history
+            each item, key in site.data.experience.education
+                li
+                    h4= key
+                    p
+                        strong= item.name
+                    p
+                        | #{item.title}
+                        | - 
+                        strong= item.yearOfGrad
+                        
+    .collapsible-heading
+        h3 Skills
+        .collapsible-trigger
+        
+    .collapsible-wrapper.-skills
+        ul.skillset
+            each skill in site.data.experience.skills
+                li
+                    p
+                        span= skill.name
+                    ._radial(class="-lvl#{skill.rating}")
+                        .overlay
+                            span= skill.level
+                        
+                        
+                
+        
+                
+                

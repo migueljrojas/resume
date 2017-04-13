@@ -1,0 +1,488 @@
+{
+    "summary": {
+        "bullet1": {
+            "description": "Building UI prototypes focused on user experience and functional design patterns.",
+            "key": "HTML & CSS Specialist."
+        },
+        "bullet2": {
+            "description": "Make pixel perfect templates from static design to fully interactive UI.",
+            "key": "If it's designed, it can be programmed."
+        },
+        "bullet3": {
+            "description": "Design web and static layout designs for effective reading and comunication.",
+            "key": "Editorial and typography expertise."
+        },
+        "bullet4": {
+            "description": "Detect and improve design and communication flaws or weaknesses.",
+            "key": "Optimizitation of design process."
+        },
+        "bullet5": {
+            "description": "Develop branding strategies and solid corporate communcation plans.",
+            "key": "Creation of a corporate identity."
+        },
+        "bullet6": {
+            "description": "Produce yye catching visuals with porpouse and meaning.",
+            "key": "Visual communication and creative advertising."
+        },
+        "bullet7": {
+            "description": "Task delegation and leading design teams.",
+            "key": "Teamwork & Leadership."
+        }
+    },
+    "workExperience": {
+        "bairesdev": {
+            "current": true,
+            "date": {
+                "from": {
+                    "month": "January",
+                    "year": "2017"
+                }
+            },
+            "company": {
+                "logo": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAQSAAAAJGM2MDljYjRjLTY2YjMtNGJkZi1hMWJiLTQ3NjhhNjZmYTk5Zg.png",
+                "name": "BairesDev",
+                "location": {
+                    "city": "Buenos Aires",
+                    "country": "Argentina"
+                },
+                "web": "http://bairesdev.com/"
+            },
+            "title": "Frontend Developer",
+            "experience": [
+                "I Joined the company to participate in a project that connects customers to brands and companies based on categories and quality reviews.",
+                "Since the beginning I felt comfortable debating and proposing ideas to the team. Spotting areas to improve based on previous experiences in the field.",
+                "It's been a great challenge to work in a framework-free environment. It helps me to think how things are done instead of finding a packaged solution."
+            ],
+            "achievements": [
+                "Develop custom components from scratch, based on modular architecture.",
+                "Contributing to improve project scalability."
+            ],
+            "type": "Development",
+            "tags": [
+                "frontend",
+                "development",
+                "html",
+                "css",
+                "javascript",
+                "sass",
+                "python",
+                "agile",
+                "scrum",
+                "mobile first"
+            ],
+            "technologies": [
+                "HTML5",
+                "CSS3",
+                "Vanilla Javascript",
+                "Sass",
+                "Python",
+                "Gulp",
+                "Jasmine"
+            ]
+        },
+        "globallogic": {
+            "date": {
+                "from": {
+                    "month": "January",
+                    "year": "2015"
+                },
+                "to": {
+                    "month": "January",
+                    "year": "2017"
+                }
+            },
+            "company": {
+                "logo": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAi_AAAAJDRlNDE2NTgwLWZjNTgtNDQ4OC05NzY5LWJmNGYyZTk2NjAxYg.png",
+                "name": "Globallogic",
+                "location": {
+                    "city": "Buenos Aires",
+                    "country": "Argentina"
+                },
+                "web": "https://www.globallogic.com"
+            },
+            "title": "Frontend Developer",
+            "experience": [
+                "Globallogic gave me the oportunity to learn and enter the big leagues of development. I had the chance to perfect my skills, and learn A LOT about how things are done in high end projects.",
+                "Participated in three different projects. A trade market simulator, a private travel agency for highend customers and a home security product retailer.",
+                "Working with the most talented people opened a new world of knowledge and possibilities for me."
+            ],
+            "achievements": [
+                "Created a custom-made mobile first framework for a website project",
+                "Contributed to the style guide definitions of the projects I was part of",
+                "Mentoring and teaching best practices for Frontend prototyping with HTML and CSS"
+            ],
+            "type": "Development",
+            "tags": [
+                "frontend",
+                "development",
+                "html",
+                "css",
+                "javascript",
+                "sass",
+                "angularJS",
+                "bootstrap",
+                "agile",
+                "scrum",
+                "mobile first"
+            ],
+            "technologies": [
+                "HTML5",
+                "CSS3",
+                "Javascript",
+                "Sass",
+                "AngularJS",
+                "jQuery",
+                "Gulp",
+                "Jasmine",
+                "Jade / Pug"
+            ]
+        },
+        "axeso5": {
+            "date": {
+                "from": {
+                    "month": "November",
+                    "year": "2011"
+                },
+                "to": {
+                    "month": "January",
+                    "year": "2015"
+                }
+            },
+            "company": {
+                "logo": "https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAANLAAAAJDJmOGE3NWRiLTM0OTUtNDlhMy05Mzc2LTE3OTU5NjdmMzhkNg.png",
+                "name": "axeso5",
+                "location": {
+                    "city": "Buenos Aires",
+                    "country": "Argentina"
+                },
+                "web": "http://www.axeso5.com/"
+            },
+            "title": "Web Designer",
+            "experience": [
+                "axeso5 is a videogame publisher, it had a lot of potential and growth in Latin America with millions of players in the continent.",
+                "It was my first full-time web based job and the kickoff of my career as a frontend designer.",
+                "I designed from static assets to fully interactive websites. I had the chance to contribute to the company growth, participated in new projects and ideas for the company's most successful time."
+            ],
+            "achievements": [
+                "Designed a new brand guide and corporate identity for the company",
+                "Improved web performance and customer conversion rate applying different design, communication and development strategies",
+                "Designed and develop a customized social network for the players"
+            ],
+            "type": "Design / Development",
+            "tags": [
+                "design",
+                "development",
+                "html",
+                "css",
+                "jquery",
+                "email marketing",
+                "SEO"
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "jQuery",
+                "Adobe Photoshop",
+                "Adobe Illustrator"
+            ]
+        },
+        "playboy": {
+            "date": {
+                "from": {
+                    "month": "November",
+                    "year": "2009"
+                },
+                "to": {
+                    "month": "March",
+                    "year": "2011"
+                }
+            },
+            "company": {
+                "logo": "https://pbs.twimg.com/profile_images/804271263434817537/iNn_RtAS_400x400.jpg",
+                "name": "Playboy Venezuela",
+                "location": {
+                    "city": "Caracas",
+                    "country": "Venezuela"
+                },
+                "web": "http://www.playboy.com/"
+            },
+            "title": "Art Director",
+            "experience": [
+                "During the time I worked in Playboy&reg; Magazine, had the chance to get involved in massive editorial production, working with top class brands and influential people."
+            ],
+            "achievements": [
+                "Transformed the magazine layout and refreshed it's design style",
+                "Helped increase the sales numbers",
+                "Targeted new audiences with an style aligned with current trends",
+                "Participated in the conceptualization of different sections and photoshoots for the magazine"
+            ],
+            "type": "Design",
+            "tags": [
+                "magazine",
+                "design",
+                "art direction",
+                "photography",
+                "photo retouch",
+                "editorial"
+            ],
+            "technologies": [
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Adobe Indesign"
+            ]
+        },
+        "minauri": {
+            "date": {
+                "from": {
+                    "month": "October",
+                    "year": "2007"
+                },
+                "to": {
+                    "month": "November",
+                    "year": "2009"
+                }
+            },
+            "company": {
+                "logo": "https://fb-s-c-a.akamaihd.net/h-ak-xaf1/v/t1.0-9/523173_10151404291366539_1860010497_n.jpg?oh=7cd0a15e8d35a5a431e6156dec535a9f&oe=59263189&__gda__=1500452220_77b55266e4b3eaa3e21ffad3ede579d9",
+                "name": "Minauri",
+                "location": {
+                    "city": "Caracas",
+                    "country": "Venezuela"
+                },
+                "web": "http://www.minauri.com"
+            },
+            "title": "Graphic Designer",
+            "experience": [
+                "Minauri and Quili are two associated companies in the homecraft business. They do both educational and editorial work.",
+                "I Worked in many design tasks, from web design, brochures, advertising and magazines."
+            ],
+            "achievements": [
+                "Increased the customer reach using SEO on the website for that time",
+                "Got involved in the company's growth by expanding the variety of contents and its quality"
+            ],
+            "type": "Design",
+            "tags": [
+                "magazine",
+                "graphic design",
+                "web design",
+                "photography"
+            ],
+            "technologies": [
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Adobe Indesign",
+                "HTML",
+                "CSS"
+            ]
+        },
+        "lanzate": {
+            "date": {
+                "from": {
+                    "month": "January",
+                    "year": "2007"
+                },
+                "to": {
+                    "month": "July",
+                    "year": "2008"
+                }
+            },
+            "company": {
+                "logo": "https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAKVAAAAJDIwOTZmOWU2LWQxODEtNGE2NS05N2I5LTBmMmZiNGMxMDcxNg.png",
+                "name": "Lanzate",
+                "location": {
+                    "city": "Caracas",
+                    "country": "Venezuela"
+                },
+                "web": "http://www.lanzate.net"
+            },
+            "title": "Creative Director",
+            "experience": [
+                "Lanzate is a multimedia agency which started as a free distribution magazine oriented to highschool kids.",
+                "I worked in the Design for “Lánzate” Magazine, advertisign, coporate design, animations and a large variety of printed and digital artworks."
+            ],
+            "achievements": [
+                "Made digital yearbooks using flash",
+                "Improved the magazine design quality"
+            ],
+            "type": "Design",
+            "tags": [
+                "magazine",
+                "graphic design",
+                "flash animations",
+                "artworks"
+            ],
+            "technologies": [
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Adobe Indesign",
+                "Adobe Flash",
+                "ActionScript"
+            ]
+        },
+        "karreras": {
+            "date": {
+                "from": {
+                    "month": "September",
+                    "year": "2005"
+                },
+                "to": {
+                    "month": "March",
+                    "year": "2006"
+                }
+            },
+            "company": {
+                "logo": "",
+                "name": "JR Karreras",
+                "location": {
+                    "city": "Caracas",
+                    "country": "Venezuela"
+                },
+                "web": ""
+            },
+            "title": "Graphic Designer",
+            "experience": [
+                "JR Karreras was an advertising agency specialized in room ambientation.",
+                "I worked with international brands such as Smirnoff&reg; and Johnny Walker&reg; using their guidelines to create 2d renders of fully customized stores."
+            ],
+            "achievements": [
+                "Improved productivity by creating processes and methodologies that optimized the creation of renders",
+                "Improved the quality of deliverable artworks for the different client stores"
+            ],
+            "type": "Design",
+            "tags": [
+                "graphic design",
+                "ambient design",
+                "branding",
+                "rendering"
+            ],
+            "technologies": [
+                "Adobe Photoshop",
+                "Adobe Illustrator"
+            ]
+        },
+        "graus": {
+            "date": {
+                "from": {
+                    "month": "January",
+                    "year": "2005"
+                },
+                "to": {
+                    "month": "September",
+                    "year": "2005"
+                }
+            },
+            "company": {
+                "logo": "",
+                "name": "Graus Graphics",
+                "location": {
+                    "city": "Caracas",
+                    "country": "Venezuela"
+                },
+                "web": ""
+            },
+            "title": "Graphic Designer",
+            "experience": [
+                "Graus was a small printing company, that specialized in business cards and invitations.",
+                "It was my first job as a graphic designer and it helped me to improve and learn a lot with the graphic design tools.",
+                "I had the freedom to experiment and play with creativity for the clients requirements"
+            ],
+            "achievements": [
+                "Boost up productivity and delivery"
+            ],
+            "type": "Design",
+            "tags": [
+                "business cards",
+                "graphic design",
+                "imagery"
+            ],
+            "technologies": [
+                "Adobe Photoshop",
+                "Adobe Illustrator"
+            ]
+        }
+    },
+    "education": {
+        "college": {
+            "name": "IDDAR (Darias Design Institute)",
+            "title": "Visual Designer",
+            "yearOfGrad": 2009
+        },
+        "highschool": {
+            "name": "Colegio Simón Rodríguez",
+            "title": "Bachelor's degree in Science",
+            "yearOfGrad": 2002
+        }
+    },
+    "languages": [
+        {
+            "language": "English",
+            "level": "Advanced"
+        },
+        {
+            "language": "Spanish",
+            "level": "Native"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Graphic Design",
+            "level": "expert",
+            "rating": 100
+        },
+        {
+            "name": "Adobe Photoshop",
+            "level": "expert",
+            "rating": 100
+        },
+        {
+            "name": "Adobe Illustrator",
+            "level": "expert",
+            "rating": 100
+        },
+        {
+            "name": "Adobe Indesign",
+            "level": "expert",
+            "rating": 100
+        },
+        {
+            "name": "HTML",
+            "level": "expert",
+            "rating": 95
+        },
+        {
+            "name": "CSS",
+            "level": "expert",
+            "rating": 95
+        },
+        {
+            "name": "SASS/LESS",
+            "level": "expert",
+            "rating": 95
+        },
+        {
+            "name": "SEO",
+            "level": "medium",
+            "rating": 70
+        },
+        {
+            "name": "Javascript",
+            "level": "medium",
+            "rating": 55
+        },
+        {
+            "name": "jQuery",
+            "level": "medium",
+            "rating": 55
+        },
+        {
+            "name": "AngularJS",
+            "level": "medium",
+            "rating": 40
+        },
+        {
+            "name": "reactJS",
+            "level": "beginner",
+            "rating": 25
+        }
+    ]
+}

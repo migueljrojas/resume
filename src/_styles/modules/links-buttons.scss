@@ -1,0 +1,29 @@
+a{
+    color: $links;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+
+    &::before{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom:-3px;
+        left:50%;
+        right:50%;
+        opacity:0;
+        height: 1px;
+        transition: all 0.3s ease;
+        background: $links;
+    }
+
+    &:hover{
+        text-decoration: none;
+
+        &::before{
+            left:0;
+            right:0;
+            opacity:1;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "profile": {
+        "photo": "https://scontent-eze1-1.xx.fbcdn.net/v/t1.0-9/10606270_10152556063725458_3917810564688427597_n.jpg?oh=330792a708159abb524537e75cb80e20&oe=594E3FF3",
+        "name": "Miguel J. Rojas <span>(MIke)</span>",
+        "title": "Frontend | UI Developer & Design"
+    },
+    "personalInfo": {
+        "birth": {
+            "label": "D.O.B.",
+            "value": "May 2nd, 1986"
+        },
+        "address": {
+            "label": "Currently at",
+            "value": "Buenos Aires, Argentina"
+        },
+        "email": {
+            "label": "Email",
+            "value": "migueljrojas@gmail.com"
+        },
+        "phone": {
+            "label": "Phone",
+            "value": "<span>+54 9 11</span> 3819 0943"
+        }
+    },
+    "social": {
+        "linkedin": {
+            "show": true,
+            "name": "LinkedIn",
+            "class": "linkedin",
+            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+        },
+        "github": {
+            "show": true,
+            "name": "GitHub",
+            "class": "github",
+            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+        },
+        "behance": {
+            "show": true,
+            "name": "BeHance",
+            "class": "behance",
+            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+        },
+        "facebook": {
+            "show": true,
+            "name": "Facebook",
+            "class": "facebook",
+            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+        },
+        "twitter": {
+            "show": true,
+            "name": "Twitter: @migueljrojas",
+            "class": "twitter",
+            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+        },
+        "instagram": {
+            "show": true,
+            "name": "Instagram: @migueljrojas",
+            "class": "instagram",
+            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+        },
+        "googlePlus": {
+            "show": true,
+            "name": "Google +",
+            "class": "google-plus",
+            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+        },
+        "youtube": {
+            "show": false,
+            "name": "YouTube",
+            "class": "youtube",
+            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+        }
+    },
+    "summary": [
+        "My goal is to \"live\" in a place where beautiful design and code goes together like peas and carrots, and if It doesn't exist, I'll help to create it."
+    ],
+    "quote": {
+        "text": "Find a job you enjoy doing, and you will never have to work a day in your life",
+        "author": "Mark Twain"
+    }
+}

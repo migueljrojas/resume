@@ -1,0 +1,16 @@
+@import 'modules/modules.scss';
+@import 'pages/pages.scss';
+
+// Normalize Styles
+@import 'node_modules/normalize.css/normalize';
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: $white;
+    font-family: $sans-serif, sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}

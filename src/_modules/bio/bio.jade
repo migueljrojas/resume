@@ -1,0 +1,33 @@
+.bio
+    ._profile
+        img(src="#{site.data.bio.profile.photo}", alt="Profile picture of #{site.data.bio.profile.name}")
+    
+    ._data
+        h1._title #{site.data.bio.profile.title}
+        span._name !{site.data.bio.profile.name}
+        
+        dl._personal-info.clearfix
+            each item in site.data.bio.personalInfo
+                if item.label == "Email"
+                    dt !{item.label}
+                    dd 
+                        a(href="mailto:#{item.value}", target="_blank") #{item.value}
+                else
+                    dt !{item.label}
+                    dd !{item.value}
+                
+        
+    ul._social
+        each item in site.data.bio.social
+            if item.show
+                li(class="_#{item.class}")
+                    a(href="#{item.link}", title="#{item.name}", target="_blank")
+                        i(class="fa fa-#{item.class}")
+    ._summary
+        each p in site.data.bio.summary
+            p #{p}
+            
+    ._quote
+        span._quote__text #{site.data.bio.quote.text}
+        span._quote__author #{site.data.bio.quote.author}
+        
