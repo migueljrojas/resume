@@ -4,6 +4,31 @@ var $ = require('jquery');
 // Constructor
 var Experience = function() {
 
+    function checkSize(){
+        if (window.matchMedia('(min-width: 768px)').matches ){
+            var trailWidth = $('._job-events')[0].scrollWidth;
+
+            $('.index-trail').each(function(){
+                $(this).css('width', trailWidth);
+            });
+
+            $('.index').each(function(){
+                $(this).css('width', trailWidth);
+            });
+        }
+    }
+
+    $(document).ready(function(){
+
+        // run test on initial page load
+        checkSize();
+
+        // run test on resize of the window
+        $(window).resize(checkSize);
+
+
+    });
+
     $('._job-events .trigger:first').parent().addClass('-open');
     $('._job-cards li:first').addClass('-active');
 

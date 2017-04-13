@@ -298,8 +298,12 @@
                     @include breakpoint(md){
                         top:initial;
                         bottom:19px;
-                        left:0;
-                        right:94%;
+                        background: transparent;
+
+                        &:after{
+                            left:0;
+                            right:94%;
+                        }
                     }
                 }
             }
@@ -320,8 +324,12 @@
                     @include breakpoint(md){
                         top:initial;
                         bottom:19px;
-                        left:6%;
-                        right:79%;
+                        background: transparent;
+
+                        &:after{
+                            left:6%;
+                            right:79%;
+                        }
                     }
                 }
             }
@@ -342,8 +350,12 @@
                     @include breakpoint(md){
                         top:initial;
                         bottom:19px;
-                        left:21%;
-                        right:55%;
+                        background: transparent;
+
+                        &:after{
+                            left:21%;
+                            right:55%;
+                        }
                     }
                 }
             }
@@ -364,8 +376,12 @@
                     @include breakpoint(md){
                         top:initial;
                         bottom:19px;
-                        left:45%;
-                        right:40%;
+                        background: transparent;
+
+                        &:after{
+                            left:45%;
+                            right:40%;
+                        }
                     }
                 }
             }
@@ -386,8 +402,12 @@
                     @include breakpoint(md){
                         top:initial;
                         bottom:19px;
-                        left:60%;
-                        right:25.5%;
+                        background: transparent;
+
+                        &:after{
+                            left:60%;
+                            right:25.5%;
+                        }
                     }
                 }
             }
@@ -408,8 +428,12 @@
                     @include breakpoint(md){
                         top:initial;
                         bottom:19px;
-                        left:67.5%;
-                        right:20.5%;
+                        background: transparent;
+
+                        &:after{
+                            left:67.5%;
+                            right:20.5%;
+                        }
                     }
                 }
             }
@@ -429,8 +453,12 @@
                     @include breakpoint(md){
                         top:initial;
                         bottom:19px;
-                        left:86%;
-                        right:7.5%;
+                        background: transparent;
+
+                        &:after{
+                            left:86%;
+                            right:7.5%;
+                        }
                     }
                 }
             }
@@ -451,8 +479,12 @@
                     @include breakpoint(md){
                         top:initial;
                         bottom:19px;
-                        left:92.5%;
-                        right:0%;
+                        background: transparent;
+
+                        &:after{
+                            left:92.5%;
+                            right:0%;
+                        }
                     }
                 }
             }
@@ -468,7 +500,6 @@
                     }
 
                     & ~ .index{
-                        background: $links;
                         opacity: 1;
                     }
                 }
@@ -493,6 +524,15 @@
                 right:0;
                 bottom:19px;
                 top:initial;
+
+                &::after{
+                    content: '';
+                    position: absolute;
+                    height:2px;
+                    background: $links;
+                    top:0;
+
+                }
             }
 
             &-trail{
@@ -784,7 +824,7 @@
 }
 
 .collapsible-wrapper{
-    max-height: 100vh;
+    max-height: 120vh;
     opacity: 1;
     transition: all 0.5s ease;
 
