@@ -256,7 +256,7 @@
             position: absolute;
             top: 15px;
             width: calc(100% - 2px);
-            height: 32px;
+            height: 45px;
             left:1px;
         }
     }
@@ -294,6 +294,13 @@
                 .index{
                     top:0;
                     bottom:94%;
+
+                    @include breakpoint(md){
+                        top:initial;
+                        bottom:19px;
+                        left:0;
+                        right:94%;
+                    }
                 }
             }
 
@@ -309,6 +316,13 @@
                 .index{
                     top:5.5%;
                     bottom:80%;
+
+                    @include breakpoint(md){
+                        top:initial;
+                        bottom:19px;
+                        left:6%;
+                        right:79%;
+                    }
                 }
             }
 
@@ -324,6 +338,13 @@
                 .index{
                     top:19.6%;
                     bottom:56.6%;
+
+                    @include breakpoint(md){
+                        top:initial;
+                        bottom:19px;
+                        left:21%;
+                        right:55%;
+                    }
                 }
             }
 
@@ -339,6 +360,13 @@
                 .index{
                     top:45%;
                     bottom:42.5%;
+
+                    @include breakpoint(md){
+                        top:initial;
+                        bottom:19px;
+                        left:45%;
+                        right:40%;
+                    }
                 }
             }
 
@@ -354,6 +382,13 @@
                 .index{
                     top:57.5%;
                     bottom:29%;
+
+                    @include breakpoint(md){
+                        top:initial;
+                        bottom:19px;
+                        left:60%;
+                        right:25.5%;
+                    }
                 }
             }
 
@@ -369,6 +404,13 @@
                 .index{
                     top:64.5%;
                     bottom:22.5%;
+
+                    @include breakpoint(md){
+                        top:initial;
+                        bottom:19px;
+                        left:67.5%;
+                        right:20.5%;
+                    }
                 }
             }
 
@@ -383,6 +425,13 @@
                 .index{
                     top:82%;
                     bottom:11%;
+
+                    @include breakpoint(md){
+                        top:initial;
+                        bottom:19px;
+                        left:86%;
+                        right:7.5%;
+                    }
                 }
             }
 
@@ -398,6 +447,13 @@
                 .index{
                     top: 88.5%;
                     bottom: 5.5%;
+
+                    @include breakpoint(md){
+                        top:initial;
+                        bottom:19px;
+                        left:92.5%;
+                        right:0%;
+                    }
                 }
             }
 
@@ -430,6 +486,15 @@
             background: $links;
             z-index:10;
 
+            @include breakpoint(md){
+                width:auto;
+                height:2px;
+                left:0;
+                right:0;
+                bottom:19px;
+                top:initial;
+            }
+
             &-trail{
                 position: absolute;
                 right:-12px;
@@ -438,6 +503,15 @@
                 background: $lightest-gray;
                 top:0;
                 bottom:0;
+
+                @include breakpoint(md){
+                    width:auto;
+                    height:2px;
+                    left:0;
+                    right:0;
+                    bottom:19px;
+                    top:initial;
+                }
             }
         }
 
