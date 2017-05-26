@@ -88,7 +88,7 @@
                 flex-direction: row;
                 height:80px;
                 overflow: scroll;
-                width:calc(100% - 2px);
+                width:calc(100% + 20px);
                 left:1px;
             }
 
@@ -256,7 +256,7 @@
             position: absolute;
             top: 15px;
             width: calc(100% - 2px);
-            height: 45px;
+            height: 43px;
             left:1px;
         }
     }
@@ -279,6 +279,7 @@
             flex-direction: row;
             height:60px;
             overflow: scroll;
+            width:calc(100% + 20px);
         }
 
         & > li{
@@ -297,7 +298,7 @@
 
                     @include breakpoint(md){
                         top:initial;
-                        bottom:19px;
+                        bottom:2px;
                         background: transparent;
 
                         &:after{
@@ -323,7 +324,7 @@
 
                     @include breakpoint(md){
                         top:initial;
-                        bottom:19px;
+                        bottom:2px;
                         background: transparent;
 
                         &:after{
@@ -349,7 +350,7 @@
 
                     @include breakpoint(md){
                         top:initial;
-                        bottom:19px;
+                        bottom:2px;
                         background: transparent;
 
                         &:after{
@@ -375,7 +376,7 @@
 
                     @include breakpoint(md){
                         top:initial;
-                        bottom:19px;
+                        bottom:2px;
                         background: transparent;
 
                         &:after{
@@ -401,7 +402,7 @@
 
                     @include breakpoint(md){
                         top:initial;
-                        bottom:19px;
+                        bottom:2px;
                         background: transparent;
 
                         &:after{
@@ -427,7 +428,7 @@
 
                     @include breakpoint(md){
                         top:initial;
-                        bottom:19px;
+                        bottom:2px;
                         background: transparent;
 
                         &:after{
@@ -452,7 +453,7 @@
 
                     @include breakpoint(md){
                         top:initial;
-                        bottom:19px;
+                        bottom:2px;
                         background: transparent;
 
                         &:after{
@@ -478,7 +479,7 @@
 
                     @include breakpoint(md){
                         top:initial;
-                        bottom:19px;
+                        bottom:2px;
                         background: transparent;
 
                         &:after{
@@ -522,7 +523,7 @@
                 height:2px;
                 left:0;
                 right:0;
-                bottom:19px;
+                bottom:2px;
                 top:initial;
 
                 &::after{
@@ -549,7 +550,7 @@
                     height:2px;
                     left:0;
                     right:0;
-                    bottom:19px;
+                    bottom:2px;
                     top:initial;
                 }
             }

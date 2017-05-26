@@ -5,7 +5,7 @@ var $ = require('jquery');
 var Experience = function() {
 
     function checkSize(){
-        if (window.matchMedia('(min-width: 768px)').matches ){
+        if (window.matchMedia('(min-width: 1024px)').matches ){
             var trailWidth = $('._job-events')[0].scrollWidth;
 
             $('.index-trail').each(function(){
