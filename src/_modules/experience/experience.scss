@@ -668,7 +668,9 @@
 
             p{
                 margin: 5px 0 0;
-                font-size:0.8em;
+                font-size:0.95em;
+                line-height: 1.35em;
+                font-weight:400;
                 color: $dark-gray;
             }
 
@@ -803,6 +805,7 @@
     top:-3px;
     opacity: .2;
     transition: opacity 0.3s ease;
+    cursor: pointer;
 
     &:before,
     &:after{
@@ -951,7 +954,7 @@
             border-radius: 50%;
             text-align: center;
             line-height: 60px;
-            font-size: 3vw;
+            font-size: 3.2vw;
             top: 50%;
             transform: translateY(-50%);
             justify-content: center;

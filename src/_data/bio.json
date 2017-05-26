@@ -33,43 +33,43 @@
             "show": true,
             "name": "GitHub",
             "class": "github",
-            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+            "link": "https://github.com/migueljrojas"
         },
         "behance": {
             "show": true,
             "name": "BeHance",
             "class": "behance",
-            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+            "link": "https://www.behance.net/migueljrojas"
         },
         "facebook": {
             "show": true,
             "name": "Facebook",
             "class": "facebook",
-            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+            "link": "https://fb.com/migueljrojas"
         },
         "twitter": {
             "show": true,
             "name": "Twitter: @migueljrojas",
             "class": "twitter",
-            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+            "link": "https://twitter.com/migueljrojas"
         },
         "instagram": {
             "show": true,
             "name": "Instagram: @migueljrojas",
             "class": "instagram",
-            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+            "link": "https://www.instagram.com/migueljrojas/"
         },
         "googlePlus": {
             "show": true,
             "name": "Google +",
             "class": "google-plus",
-            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+            "link": "https://plus.google.com/+MiguelRojas-UI-Developer"
         },
         "youtube": {
-            "show": false,
+            "show": true,
             "name": "YouTube",
             "class": "youtube",
-            "link": "https://www.linkedin.com/in/miguel-rojas-4bb48a36/?locale=en_US"
+            "link": "https://www.youtube.com/user/MiguelJRojas"
         }
     },
     "summary": [
