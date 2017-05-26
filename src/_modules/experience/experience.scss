@@ -615,7 +615,7 @@
         float:left;
 
         @include breakpoint(md){
-            min-height: 320px;
+            min-height: 400px;
             float: none;
         }
     }
